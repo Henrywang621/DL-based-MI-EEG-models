@@ -40,8 +40,7 @@ for group_id in groups:
         model = EEGNet(nb_classes = 2, Chans = 64, 
                        dropoutRate = 0.5, kernLength = 64, F1 = 8, D = 2, F2 = 16, 
                        dropoutType = 'Dropout')
-            
-        cweights = get_weights(y_train)    
+             
         weights_path = "Checkpoints/EEGNet-group{0}-{1}.hdf5".format(group_id, i)
         model.compile(loss='categorical_crossentropy', optimizer='adam', 
                       metrics = ['accuracy'])
