@@ -44,7 +44,7 @@ for group_id in groups:
         weights_path = "Checkpoints/EEGNet-group{0}-{1}.hdf5".format(group_id, i)
         model.compile(loss='categorical_crossentropy', optimizer='adam', 
                       metrics = ['accuracy'])
-        earlystopping = EarlyStopping(monitor='val_loss', patience=20)
+        earlystopping = EarlyStopping(monitor='val_loss', patience=30)
         model_checkpoint = ModelCheckpoint(filepath = weights_path, monitor='val_loss', 
                                            verbose=1, save_best_only=True)
         tensorboard = TensorBoard(log_dir=log_path)
