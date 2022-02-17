@@ -25,6 +25,7 @@ kernels = 1
 batch_size = 16
 folds = range(5)
 log_path = 'log/'
+results = np.zeros((len(groups), len(folds) + 1, 4))
 
 for group_id in groups:
     for i in folds:
@@ -49,5 +50,19 @@ for group_id in groups:
                                            verbose=1, save_best_only=True)
         tensorboard = TensorBoard(log_dir=log_path)
         callback_list = [model_checkpoint, earlystopping, tensorboard]
-        fittedModel = model.fit(X_train, y_train, epochs = epochs, batch_size = batch_size,                                                 class_weight = cweights, validation_data = (X_val, y_val), 
+        fittedModel = model.fit(X_train, y_train, epochs = epochs, batch_size = batch_size, validation_data = (X_val, y_val), 
                                 verbose= 2, shuffle = False, callbacks=callback_list)
+        model = load_model('Checkpoints/EEGNet-group{0}-{1}.hdf5'.format(group_id, i))
+        y_pred = model.predict(X_test)
+        y_pred = np.argmax(y_pred, axis = 1)
+        y_true = np.argmax(y_test, axis = 1)
+        acc = 100 * accuracy_score(y_true, y_pred)
+        f1 = f1_score(y_true, y_pred, average='macro')
+        auc = roc_auc_score(y_true, y_pred, average='macro')
+        kappa = cohen_kappa_score(y_true, y_pred)
+        results[group_id-1, i, 0] = round(acc, 2)
+        results[group_id-1, i, 1] = round(f1, 3)
+        results[group_id-1, i, 2] = round(auc, 3)
+        results[group_id-1, i, 3] = round(kappa, 3)
+    results[group_id-1, len(folds), :] = np.round(np.mean(results[group_id-1][:-1], axis = 0), decimals = 3)
+np.save('Checkpoints/results.npy', results)
