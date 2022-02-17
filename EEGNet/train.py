@@ -32,11 +32,14 @@ for group_id in groups:
         train_ids, val_ids, test_ids = spilt_dataset(subject_ids, i)   
 #         np.save('Checkpoints/test_ids{0}-{1}.npy'.format(group_id, i), test_ids)
         X_train, y_train = load_data(train_ids, group_id, istraining = True)
+        X_test, y_test = load_data(test_ids, group_id, istraining = False)
         X_val, y_val = load_data(val_ids, group_id, istraining = False)
         X_train, y_train = prepare_data(np.array(X_train), np.array(y_train).reshape(-1, 1))
+        X_test, y_test = prepare_data(np.array(X_test), np.array(y_test).reshape(-1, 1))
         X_val, y_val = prepare_data(np.array(X_val), np.array(y_val).reshape(-1, 1))
         samples = X_train.shape[2]
         X_train = X_train.reshape(X_train.shape[0], chans, samples, kernels)
+        X_test = X_train.reshape(X_test.shape[0], chans, samples, kernels)
         X_val = X_val.reshape(X_val.shape[0], chans, samples, kernels)
         model = EEGNet(nb_classes = 2, Chans = 64, 
                        dropoutRate = 0.5, kernLength = 64, F1 = 8, D = 2, F2 = 16, 
