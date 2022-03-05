@@ -14,6 +14,8 @@ This project aims to investigate the existing deep learning-based MI EEG decodin
 | An end-to-end model | An end-to-end deep learning approach to MI-EEG signalclassification for BCIs. | Dose et al. | [Link](https://github.com/hauke-d/cnn-eeg) |
 | Cascade model | Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface. | Zhang et al. | [Link](https://github.com/dalinzhang/Cascade-Parallel) |  
 | Parallel model | Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface. | Zhang et al. | [Link](https://github.com/dalinzhang/Cascade-Parallel) |  
+| A LSTM model | Validating Deep Neural Networks for Online Decoding of Motor Imagery Movements from EEG Signals. | Tayeb et al. | [Link](https://github.com/gumpy-bci/gumpy-deeplearning) |
+| pCNN | Validating Deep Neural Networks for Online Decoding of Motor Imagery Movements from EEG Signals. | Tayeb et al. | [Link](https://github.com/gumpy-bci/gumpy-deeplearning) |
 | EEGNet fusion | Fusion Convolutional Neural Network for Cross-Subject EEG Motor Imagery Classification. | Roots et al. | [Link](https://github.com/rootskar/EEGMotorImagery) |  
 | C-LSTM | Data augmentation for self-paced motor imagery classification with C-LSTM. | Freer et al. | [Link](https://github.com/dfreer15/DeepEEGDataAugmentation) |
 | GCRAM | Motor Imagery Classification via Temporal Attention Cues of Graph Embedded EEG Signals. | Zhang et al. | [Link](https://github.com/dalinzhang/GCRAM) |  
