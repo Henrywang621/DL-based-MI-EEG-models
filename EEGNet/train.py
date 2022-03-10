@@ -37,10 +37,9 @@ for group_id in groups:
         X_train, y_train = prepare_data(np.array(X_train), np.array(y_train).reshape(-1, 1))
         X_test, y_test = prepare_data(np.array(X_test), np.array(y_test).reshape(-1, 1))
         X_val, y_val = prepare_data(np.array(X_val), np.array(y_val).reshape(-1, 1))
-        samples = X_train.shape[2]
-        X_train = X_train.reshape(X_train.shape[0], chans, samples, kernels)
-        X_test = X_train.reshape(X_test.shape[0], chans, samples, kernels)
-        X_val = X_val.reshape(X_val.shape[0], chans, samples, kernels)
+        X_train = np.expand_dims(X_train, axis = -1)
+        X_test = np.expand_dims(X_test, axis = -1)
+        X_val = np.expand_dims(X_val, axis = -1)
         model = EEGNet(nb_classes = 2, Chans = 64, 
                        dropoutRate = 0.5, kernLength = 64, F1 = 8, D = 2, F2 = 16, 
                        dropoutType = 'Dropout')
