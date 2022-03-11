@@ -12,7 +12,7 @@ This project aims to investigate the existing deep learning-based MI EEG decodin
 | Deep ConvNet | Deep learning with convolutional neural networks for EEG decoding and visualization. | Tibor et al. | 2017 |[Link](https://github.com/braindecode/braindecode) |  
 | EEGNet | EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces. | Lawhern et al. | 2018 | [Link](https://github.com/vlawhern/arl-eegmodels) |  
 | An end-to-end model | An end-to-end deep learning approach to MI-EEG signalclassification for BCIs. | Dose et al. | 2018 | [Link](https://github.com/hauke-d/cnn-eeg) |
-| Cascade model | Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface. | Zhang et al. | [Link](https://github.com/dalinzhang/Cascade-Parallel) |  
+| Cascade model | Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface. | Zhang et al. | 2018 | [Link](https://github.com/dalinzhang/Cascade-Parallel) |  
 | Parallel model | Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface. | Zhang et al. | 2018 | [Link](https://github.com/dalinzhang/Cascade-Parallel) |  
 | A LSTM model | Validating Deep Neural Networks for Online Decoding of Motor Imagery Movements from EEG Signals. | Tayeb et al. | 2018 | [Link](https://github.com/gumpy-bci/gumpy-deeplearning) |
 | pCNN | Validating Deep Neural Networks for Online Decoding of Motor Imagery Movements from EEG Signals. | Tayeb et al. | 2019 | [Link](https://github.com/gumpy-bci/gumpy-deeplearning) |
