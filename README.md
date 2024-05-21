@@ -20,4 +20,5 @@ This project aims to investigate the existing deep learning-based MI EEG decodin
 | C-LSTM | Data augmentation for self-paced motor imagery classification with C-LSTM. | Freer et al. | 2020 | [Link](https://github.com/dfreer15/DeepEEGDataAugmentation) |
 | GCRAM | Motor Imagery Classification via Temporal Attention Cues of Graph Embedded EEG Signals. | Zhang et al. | 2020 | [Link](https://github.com/dalinzhang/GCRAM) |  
 | TS-SEFFNet | A Temporal-Spectral-Based Squeeze-and-Excitation Feature Fusion Network for Motor Imagery EEG Decoding. | Li et al. | 2021 | [Link](https://github.com/LianghuiGuo/TS-SEFFNet) |  
+| MIN2Net | MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification. | Li et al. | 2022 | [Link](https://github.com/IoBT-VISTEC/MIN2Net) |
 
