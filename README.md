@@ -21,5 +21,5 @@ This project aims to investigate the existing deep learning-based MI EEG decodin
 | GCRAM | Motor Imagery Classification via Temporal Attention Cues of Graph Embedded EEG Signals. | Zhang et al. | 2020 | [Link](https://github.com/dalinzhang/GCRAM) |  
 | TS-SEFFNet | A Temporal-Spectral-Based Squeeze-and-Excitation Feature Fusion Network for Motor Imagery EEG Decoding. | Li et al. | 2021 | [Link](https://github.com/LianghuiGuo/TS-SEFFNet) |  
 | MIN2Net | MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification. | Phairot et al. | 2022 | [Link](https://github.com/IoBT-VISTEC/MIN2Net) |
-| EEG-Transformer | Transformer based Spatial-Temporal Feature Learning for EEG Decoding | Song et al. | 2022 | [Link](Transformer based Spatial-Temporal Feature Learning for EEG Decoding) |
+| EEG-Transformer | Transformer based Spatial-Temporal Feature Learning for EEG Decoding | Song et al. | 2022 | [Link](https://github.com/eeyhsong/EEG-Transformer) |
 
