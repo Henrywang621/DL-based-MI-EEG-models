@@ -7,11 +7,11 @@ This project aims to investigate the existing deep learning-based MI EEG decodin
 
 | methods | title | author |  year | source code |  
 | ------ | ------ | ------ | ------ | ------ |
-| Mixed LSTM/1DConv | Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks. [Paper](https://arxiv.org/abs/1511.06448) | Bashivan et al. | 2016 | [Link](https://github.com/pbashivan/EEGLearn) | 
-| Shallow ConvNet |  Deep learning with convolutional neural networks for EEG decoding and visualization. [Paper](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730) | Tibor et al. | 2017 | [Link](https://github.com/braindecode/braindecode) |
-| Deep ConvNet | Deep learning with convolutional neural networks for EEG decoding and visualization. [Paper](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730)| Tibor et al. | 2017 |[Link](https://github.com/braindecode/braindecode) |  
-| EEGNet | EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces. [Link]（https://arxiv.org/abs/1611.08024） | Lawhern et al. | 2018 | [Link](https://github.com/vlawhern/arl-eegmodels) |  
-| An end-to-end model | An end-to-end deep learning approach to MI-EEG signalclassification for BCIs. [link][https://www.sciencedirect.com/science/article/pii/S0957417418305359] | Dose et al. | 2018 | [Link](https://github.com/hauke-d/cnn-eeg) |
+| Mixed LSTM/1DConv | Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks. [[Paper]](https://arxiv.org/abs/1511.06448) | Bashivan et al. | 2016 | [[Paper]](https://github.com/pbashivan/EEGLearn) | 
+| Shallow ConvNet |  Deep learning with convolutional neural networks for EEG decoding and visualization. [[Paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730) | Tibor et al. | 2017 | [Link](https://github.com/braindecode/braindecode) |
+| Deep ConvNet | Deep learning with convolutional neural networks for EEG decoding and visualization. [[Paper]](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.23730)| Tibor et al. | 2017 |[[Paper]](https://github.com/braindecode/braindecode) |  
+| EEGNet | EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces. [[Paper]]（https://arxiv.org/abs/1611.08024） | Lawhern et al. | 2018 | [[Paper]](https://github.com/vlawhern/arl-eegmodels) |  
+| An end-to-end model | An end-to-end deep learning approach to MI-EEG signalclassification for BCIs. [[Paper]][https://www.sciencedirect.com/science/article/pii/S0957417418305359] | Dose et al. | 2018 | [Link](https://github.com/hauke-d/cnn-eeg) |
 | Cascade model | Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface. [link](https://ojs.aaai.org/index.php/AAAI/article/view/11496) | Zhang et al. | 2018 | [Link](https://github.com/dalinzhang/Cascade-Parallel) |  
 | Parallel model | Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface. | Zhang et al. | 2018 | [Link](https://github.com/dalinzhang/Cascade-Parallel) |  
 | A LSTM model | Validating Deep Neural Networks for Online Decoding of Motor Imagery Movements from EEG Signals. [link](https://ojs.aaai.org/index.php/AAAI/article/view/11496) | Tayeb et al. | 2018 | [Link](https://github.com/gumpy-bci/gumpy-deeplearning) |
