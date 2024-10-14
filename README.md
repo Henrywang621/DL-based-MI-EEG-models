@@ -33,6 +33,9 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 bash Anaconda3-2021.05-Linux-x86_64.sh
 conda init
 source ~/.bashrc
+conda env create -f tf-gpu.yml
+conda env create -f torch37b6.yml
+conda env create -f torch37c.yml
 ```
 
 <a  id="Models-SourceCode"></a>
