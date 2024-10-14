@@ -9,10 +9,26 @@
       <img src=https://img.shields.io/badge/TensorFlow-2.7.0-FF6F00?logo=tensorflow&style=for-the-badge>
 </p>
 
-This code repository collects the available source code of the representative DL-based models for classifying MI-EEG signals and runs a leaderboard table to fairly compare these models. More summarization and discussions about the representative models can be found in our survey paper [Link](https://www.sciencedirect.com/science/article/pii/S093336572300252X). This repository is updated regularly.
+This code repository collects the available source code of the representative DL-based models for classifying MI-EEG signals and runs a leaderboard table to fairly compare these models. More summarization and discussions about the representative models can be found in our survey paper [(Link)](https://www.sciencedirect.com/science/article/pii/S093336572300252X). This repository is updated regularly.
 
+Table of contents
+===
 
-## Representative Methods with Source Code
+<!--ts-->
+  * [➤ Installation](#installation)
+  * [➤ Representative Models and Their Corresponding Source Code](#Models-SourceCode)
+  * [➤ Citations](#citations)
+<!--te-->
+
+<a  id="installation"></a>
+Installation
+===
+```
+git clone https://github.com/
+```
+
+<a  id="Models-SourceCode"></a>
+## Representative Models and Their Corresponding Source Code
 
 | methods | title | author |  year | source code |  
 | ------ | ------ | ------ | ------ | ------ |
