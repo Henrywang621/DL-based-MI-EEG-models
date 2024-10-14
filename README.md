@@ -1,10 +1,12 @@
-# An in-depth survey on deep learning (DL)-based motor imagery (MI) EEG Classification
+# A Code Repository for Deep Learning (DL)-Based Motor Imagery (MI) EEG Classification
 
 <p align="center">
       <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-3.7.9%20|%203.9.7-EE4C2C?logo=python&style=for-the-badge" /></a>
        <a href= "https://pytorch.org/">
         <img src="https://img.shields.io/badge/PyTorch-1.6.0-EE4C2C?logo=pytorch&style=for-the-badge" /></a>
+      <a href= "https://www.tensorflow.org/">
+      <https://img.shields.io/badge/TensorFlow-2.7.0-FF6F00?logo=tensorflow&style=for-the-badge>
 </p>
 
 This code repository collects the available source code of the representative DL-based methods for classifying MI-EEG signals and runs a leaderboard table to fairly compare these methods. I will update this repository regularly.
