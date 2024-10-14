@@ -2,7 +2,7 @@
 
 <p align="center">
       <a href="https://www.python.org/">
-        <img src="https://img.shields.io/badge/Python-3.7.9-EE4C2C?logo=python&style=for-the-badge" /></a>
+        <img src="https://img.shields.io/badge/Python-3.7.9%20|%203.9.7-EE4C2C?logo=python&style=for-the-badge" /></a>
        <a href= "https://pytorch.org/">
         <img src="https://img.shields.io/badge/PyTorch-1.6.0-EE4C2C?logo=pytorch&style=for-the-badge" /></a>
 </p>
