@@ -7,6 +7,9 @@
         <img src="https://img.shields.io/badge/PyTorch-1.6.0-EE4C2C?logo=pytorch&style=for-the-badge" /></a>
       <a href= "https://www.tensorflow.org/">
       <img src=https://img.shields.io/badge/TensorFlow-2.7.0-FF6F00?logo=tensorflow&style=for-the-badge>
+</a>
+      <a href= "https://www.tensorflow.org/">
+      <img src=https://img.shields.io/badge/Anaconda-4.10.1-44A833?logo=anaconda&style=for-the-badge>
 </p>
 
 This code repository collects the available source code of the representative DL-based models for classifying MI-EEG signals and runs a leaderboard table to fairly compare these models. More summarization and discussions about the representative models can be found in our survey paper [(Link)](https://www.sciencedirect.com/science/article/pii/S093336572300252X). This repository is updated regularly.
@@ -24,7 +27,7 @@ Table of contents
 Installation
 ===
 ```
-git clone https://github.com/
+git clone https://github.com/Henrywang621/DL-based-MI-EEG-models.git
 ```
 
 <a  id="Models-SourceCode"></a>
