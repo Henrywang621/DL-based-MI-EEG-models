@@ -16,7 +16,7 @@ Table of contents
 
 <!--ts-->
   * [➤ Installation](#installation)
-  * [➤ Representative Models and Their Corresponding Source Code](#Models-SourceCode)
+  * [➤ Representative Models and Their Source Code](#Models-SourceCode)
   * [➤ Citations](#citations)
 <!--te-->
 
