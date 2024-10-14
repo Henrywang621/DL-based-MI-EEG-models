@@ -22,6 +22,7 @@ Table of contents
 
 <!--ts-->
   * [➤ Installation](#installation)
+  * [➤ Usage](#usage)
   * [➤ Representative Models and Their Source Code](#Models-SourceCode)
   * [➤ Citations](#citations)
 <!--te-->
@@ -39,6 +40,15 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 bash Anaconda3-2021.05-Linux-x86_64.sh
 conda init
 source ~/.bashrc
+```
+
+<a  id="usage"></a>
+Usage
+===
+
+```
+chmod +x ./train.s
+sh train.sh
 ```
 
 <a  id="Models-SourceCode"></a>
