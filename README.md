@@ -12,7 +12,7 @@
       <img src=https://img.shields.io/badge/Anaconda-4.10.1-44A833?logo=anaconda&style=for-the-badge>
 </a>
       <a href= "https://opensource.org/license/mit">
-      <img src=https://img.shields.io/badge/License-MIT-blue.svg>
+      <img src=https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)>
 </p>
 
 This code repository collects the available source code of the representative DL-based models for classifying MI-EEG signals and runs a leaderboard table to fairly compare these models. More summarization and discussions about the representative models can be found in our survey paper [(Link)](https://www.sciencedirect.com/science/article/pii/S093336572300252X). This repository is updated regularly.
