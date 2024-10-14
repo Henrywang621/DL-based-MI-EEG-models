@@ -10,6 +10,9 @@
 </a>
       <a href= "https://www.tensorflow.org/">
       <img src=https://img.shields.io/badge/Anaconda-4.10.1-44A833?logo=anaconda&style=for-the-badge>
+</a>
+      <a href= "https://opensource.org/license/mit">
+      <img src=https://img.shields.io/badge/License-MIT-blue.svg>
 </p>
 
 This code repository collects the available source code of the representative DL-based models for classifying MI-EEG signals and runs a leaderboard table to fairly compare these models. More summarization and discussions about the representative models can be found in our survey paper [(Link)](https://www.sciencedirect.com/science/article/pii/S093336572300252X). This repository is updated regularly.
@@ -58,4 +61,21 @@ source ~/.bashrc
 | TS-SEFFNet | A Temporal-Spectral-Based Squeeze-and-Excitation Feature Fusion Network for Motor Imagery EEG Decoding. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9495768) | Li et al. | 2021 | [Code](https://github.com/LianghuiGuo/TS-SEFFNet) |  
 | MIN2Net | MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification. [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9658165)| Phairot et al. | 2022 | [Code](https://github.com/IoBT-VISTEC/MIN2Net) |
 | EEG-Transformer | Transformer based Spatial-Temporal Feature Learning for EEG Decoding. [[Paper]](https://arxiv.org/abs/2106.11170) | Song et al. | 2022 | [Code](https://github.com/eeyhsong/EEG-Transformer) |
+
+<a  id="citations"></a>
+Citations
+===
+
+```bibtex
+@article{WANG2024102738,
+title = {An in-depth survey on Deep Learning-based Motor Imagery Electroencephalogram (EEG) classification},
+journal = {Artificial Intelligence in Medicine},
+volume = {147},
+pages = {102738},
+year = {2024},
+issn = {0933-3657},
+doi = {https://doi.org/10.1016/j.artmed.2023.102738},
+url = {https://www.sciencedirect.com/science/article/pii/S093336572300252X},
+author = {Xianheng Wang and Veronica Liesaputra and Zhaobin Liu and Yi Wang and Zhiyi Huang},
+```
 
