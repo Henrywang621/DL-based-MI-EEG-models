@@ -28,6 +28,7 @@ Installation
 ===
 ```
 git clone https://github.com/Henrywang621/DL-based-MI-EEG-models.git
+cd DL-based-MI-EEG-models
 ```
 
 <a  id="Models-SourceCode"></a>
