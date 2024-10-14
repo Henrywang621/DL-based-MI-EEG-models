@@ -45,7 +45,7 @@ source ~/.bashrc
 <a  id="usage"></a>
 Usage
 ===
-
+If you want to evaluate the collected models on the BCI IV 2a dataset, please use the commands below.
 ```
 cd BCIIV2a_CrossSubjs
 chmod +x ./train.s
