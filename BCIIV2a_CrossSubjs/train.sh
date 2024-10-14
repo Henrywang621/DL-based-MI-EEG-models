@@ -9,8 +9,7 @@ nohup python train_EEGfusion.py --numepochs 300 --Patience4ES 30
 nohup python train_Min2Net.py --numepochs 300 --Patience4ES 30
 nohup python train_pCNN.py --numepochs 300 --Patience4ES 30
 nohup python train_LSTM.py --numepochs 300 --Patience4ES 30
-# nohup python train_PGCFMTL.py --numepochs 300 --Patience4ES 15
-# nohup python train_SSNet.py --numepochs 300 --Patience4ES 10
+
 
 
 conda activate torch37c
