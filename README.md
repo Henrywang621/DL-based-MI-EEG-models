@@ -4,7 +4,7 @@
       <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/python-3.7-blue.svg" /></a>
        <a href= "https://pytorch.org/">
-        <img src="[https://img.shields.io/badge/PyTorch-1.6.0](https://img.shields.io/badge/PyTorch-1.6.0-EE4C2C?logo=pytorch&style=for-the-badge)" /></a>
+        <img src="https://img.shields.io/badge/PyTorch-1.6.0-EE4C2C?logo=pytorch&style=for-the-badge" /></a>
 </p>
 
 This code repository collects the available source code of the representative DL-based methods for classifying MI-EEG signals and runs a leaderboard table to fairly compare these methods. I will update this repository regularly.
