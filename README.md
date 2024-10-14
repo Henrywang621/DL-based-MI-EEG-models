@@ -47,6 +47,7 @@ Usage
 ===
 
 ```
+cd BCIIV2a_CrossSubjs
 chmod +x ./train.s
 sh train.sh
 ```
