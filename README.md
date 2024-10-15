@@ -15,7 +15,7 @@
       <img src=https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)>
 </p>
 
-This code repository collects the available source code of the representative DL-based models for classifying MI-EEG signals and runs a leaderboard table to fairly compare these models. Shell scripts provided in this repository can conveniently evaluate representative models on public MI-EEG datasets. More summarization and discussions about the representative models can be found in our survey paper [(Link)](https://www.sciencedirect.com/science/article/pii/S093336572300252X). This repository is updated regularly.
+This code repository collects the available source code of the representative DL-based models for classifying MI-EEG signals and runs a leaderboard table to fairly compare these models. The provided shell scripts can conveniently evaluate representative models on public MI-EEG datasets. The aim of this repository is to help researchers better evaluate their proposed models. More summarization and discussions about the representative models can be found in our survey paper [(Link)](https://www.sciencedirect.com/science/article/pii/S093336572300252X). This repository is updated regularly.
 
 Table of contents
 ===
